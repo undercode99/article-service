@@ -50,15 +50,16 @@ Documentation API please follow this link:
 ## Directory Structure
 
 ```
-├── .env
+├── .env                        // .env for config environment
+├── .env.example                // example env
 ├── Dockerfile
 ├── README.md
-├── docker-compose.yml
+├── docker-compose.yml          // docker-compose file for deployment
 ├── go.mod
 ├── go.sum
-├── LICENSE
-├── cmd
-│   ├── server
+├── cmd                         // command entry point
+│   ├── cli                     // for command line entry point
+│   ├── server                  // http server entry point
 │       ├── main.go             // main entry point
 │       └── runner              // wire injection and app initialization
 ├── internal                    // internal application
@@ -75,8 +76,6 @@ Documentation API please follow this link:
 │               └── article_command_repository.go // article repository implementation for command request
 │               └── article_query_repository.go   // article repository implementation for query request
 │               └── article_service.go            // article service implementation
-│               └── article_caching_repository.go // article cache implementation 
-└── server
-    ├── cmd
-    │   ├── main.go             // main entry point
-    │   └── runner              // wire injection
+│               └── article_caching_repository.go // article cache implementation
+├── pkg                        // for package reuseable like, utils and etc.
+```
