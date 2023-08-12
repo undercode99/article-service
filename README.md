@@ -8,7 +8,7 @@
 - [Architecture Overview](#architecture-overview)
 - [Getting Started](#getting-started)
 - [Documentation API](#documentation-api)
-- [Folder Structure](#folder-structure)
+- [Directory Structure](#directory-structure)
 
 ## Introduction
 
