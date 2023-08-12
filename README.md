@@ -37,7 +37,7 @@ To start using this project, follow these steps:
 
 - Clone the repository to your local machine.
 - copy `.env.example` to `.env` and edit configre database and etc.
-- Run the following command to build the project with docker-compose:
+- Run the following command to build and run the project using docker-compose:
 ```
 docker-compose up --build
 ```
