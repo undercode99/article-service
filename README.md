@@ -47,7 +47,7 @@ wait for the project to be up and running and then navigate to `http://localhost
 Documentation API please follow this link:
 [https://documenter.getpostman.com/view/6069427/2s9Xy5LA6L](https://documenter.getpostman.com/view/6069427/2s9Xy5LA6L)
 
-## Folder Structure
+## Directory Structure
 
 ```
 ├── .env
